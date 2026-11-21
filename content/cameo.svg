@@ -1,0 +1,55 @@
+<svg class="cameo" viewBox="0 0 240 280" role="img" aria-label="黑格尔侧面剪影，铜版示意">
+<defs>
+  <pattern id="hz" width="4.6" height="4.6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="4.6" stroke="#7d6244" stroke-width=".5" opacity=".5"/>
+  </pattern>
+  <pattern id="hz2" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)">
+    <line x1="0" y1="0" x2="0" y2="3" stroke="#4a3626" stroke-width=".45" opacity=".45"/>
+  </pattern>
+  <clipPath id="oval"><ellipse cx="120" cy="136" rx="86" ry="110"/></clipPath>
+  <clipPath id="bust">
+    <path d="M118 40 C98 40 85 51 81 66 C78 76 79 86 80 92 C77 98 76 102 75 106 C70 112 60 119 59 124 C58 127 62 129 67 130 C65 132 64 134 65 136 C62 138 62 141 65 143 C63 146 64 150 67 153 C69 159 71 164 76 169 C82 174 89 177 97 178 C103 180 107 185 107 191 C102 201 88 211 76 221 C62 233 57 250 56 280 L192 280 C192 250 187 233 174 221 C162 211 149 202 147 196 C145 190 144 182 142 172 C152 160 161 148 165 130 C169 112 168 92 163 76 C156 55 139 40 118 40 Z"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#oval)">
+  <rect x="20" y="18" width="200" height="242" fill="#f6efdf"/>
+  <rect x="130" y="18" width="92" height="245" fill="url(#hz)"/>
+  <rect x="20" y="18" width="118" height="245" fill="url(#hz2)" opacity=".65"/>
+  <rect x="20" y="212" width="200" height="52" fill="url(#hz2)" opacity=".5"/>
+
+  <g transform="translate(120 128) scale(0.8) translate(-120 -136)">
+  <!-- 半身剪影：头、颈、肩一体 -->
+  <path d="M118 40 C98 40 85 51 81 66 C78 76 79 86 80 92 C77 98 76 102 75 106 C70 112 60 119 59 124 C58 127 62 129 67 130 C65 132 64 134 65 136 C62 138 62 141 65 143 C63 146 64 150 67 153 C69 159 71 164 76 169 C82 174 89 177 97 178 C103 180 107 185 107 191 C102 201 88 211 76 221 C62 233 57 250 56 280 L192 280 C192 250 187 233 174 221 C162 211 149 202 147 196 C145 190 144 182 142 172 C152 160 161 148 165 130 C169 112 168 92 163 76 C156 55 139 40 118 40 Z" fill="#241a14"/>
+
+  <g clip-path="url(#bust)">
+    <!-- 发丝高光（纸色细线，模拟铜版留白） -->
+    <g stroke="#f6efdf" stroke-linecap="round" fill="none">
+      <path d="M104 46 C95 56 90 68 89 80" stroke-width="1.1" opacity=".45"/>
+      <path d="M116 44 C104 54 97 68 96 82" stroke-width=".9" opacity=".38"/>
+      <path d="M128 44 C116 55 108 68 106 84" stroke-width="1.2" opacity=".46"/>
+      <path d="M140 47 C130 58 122 72 119 88" stroke-width="1" opacity=".4"/>
+      <path d="M150 53 C143 65 136 80 133 94" stroke-width="1.1" opacity=".42"/>
+      <path d="M159 63 C153 76 148 90 146 104" stroke-width=".9" opacity=".32"/>
+      <path d="M163 77 C159 90 156 104 155 118" stroke-width=".8" opacity=".26"/>
+    </g>
+    <!-- 面颊极淡的一道受光边 -->
+    <path d="M80 91 C77 96 75 101 73 106" fill="none" stroke="#f6efdf" stroke-width=".45" opacity=".14"/>
+    <path d="M67 154 C70 160 73 165 78 169" fill="none" stroke="#f6efdf" stroke-width=".45" opacity=".12"/>
+  </g>
+
+  <!-- 白领巾 -->
+  <path d="M100 202 L120 222 L140 202 L147 209 L126 233 L120 252 L114 233 L93 209 Z" fill="#f3ecd9"/>
+  <path d="M104 206 L120 222 L136 206" fill="none" stroke="#c2b191" stroke-width=".5" opacity=".8"/>
+  <path d="M120 226 L120 250" fill="none" stroke="#c2b191" stroke-width=".5" opacity=".7"/>
+
+  <!-- 领结（暗红） -->
+  <path d="M114 224 L120 234 L126 224 L124 246 L116 246 Z" fill="#7c2b21" opacity=".92"/>
+  </g>
+</g>
+
+<!-- 椭圆双线与铜色外框 -->
+<ellipse cx="120" cy="136" rx="86" ry="110" fill="none" stroke="#241a14" stroke-width="1.3"/>
+<ellipse cx="120" cy="136" rx="91" ry="115" fill="none" stroke="#9a7a3f" stroke-width=".5" opacity=".8"/>
+<ellipse cx="120" cy="136" rx="95" ry="119" fill="none" stroke="#9a7a3f" stroke-width=".9"/>
+</svg>

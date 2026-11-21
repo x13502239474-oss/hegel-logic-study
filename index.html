@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>黑格尔逻辑学研究室</title>
+<meta name="description" content="以《小逻辑》为底本的 112 讲系统课程：存在论、本质论、概念论的逐范畴推演，附原著节号、概念专题与术语词典。">
+<meta name="theme-color" content="#f8f3e7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f8f3e7'/%3E%3Crect x='3' y='3' width='58' height='58' fill='none' stroke='%233a2b20' stroke-width='2'/%3E%3Crect x='7' y='7' width='50' height='50' fill='none' stroke='%239a7a3f' stroke-width='1'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%233a2b20' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="">
+<a class="skip" href="#main">跳转到正文</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<header class="header">
+  <div class="header-in">
+    <a class="brand" href="index.html" aria-label="返回首页">
+      <span class="monogram" aria-hidden="true">H</span>
+      <span class="brand-txt">
+        <span class="brand-cn">黑格尔逻辑学研究室</span>
+        <span class="brand-en">Hegel&rsquo;s Science of Logic Study Institute</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="主导航"><a href="course.html">课程总览</a><a href="atlas.html">全景图</a><a href="derivation.html">范畴推演</a><a href="network.html">概念网络</a><a href="compare.html">概念对照</a><a href="glossary.html">术语词典</a><a href="about.html">关于本站</a></nav>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="drawer">目录 <span aria-hidden="true"></span></button>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="kicker">Digital Research Institute · Est. 二〇二六年</div>
+      <h1>黑格尔<br>逻辑学研究室<small>A DIGITAL COURSE ON THE ENCYCLOPAEDIA LOGIC</small></h1>
+      <p class="hero-de">&ldquo;Die Wahrheit ist das Ganze.&rdquo; — 真理是全体。</p>
+      <p class="hero-lede">这是一门从零开始、逐范畴推进的《小逻辑》课程，只读文本本身。全书 <strong>112 讲</strong>
+      按原著三部分展开：存在论从最贫乏的「纯存在」起步，本质论进入反思的中介，概念论达到自我规定的自由。
+      每一讲都回到<strong>原著节号</strong>，把「为什么必须过渡」讲清楚。</p>
+      <div class="hero-actions">
+        <a class="btn btn--red" href="ch01.html">从第一章开始 <span class="arw">→</span></a>
+        <a class="btn" href="being-nothing-becoming.html">先读精读：有—无—生成</a>
+      </div>
+    </div>
+    <div class="plate reveal">
+      <div class="plate-inner">
+        <div class="plate-name">G. W. F. Hegel</div>
+        <svg class="cameo" viewBox="0 0 240 280" role="img" aria-label="黑格尔侧面剪影，铜版示意">
+<defs>
+  <pattern id="hz" width="4.6" height="4.6" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="4.6" stroke="#7d6244" stroke-width=".5" opacity=".5"/>
+  </pattern>
+  <pattern id="hz2" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(-38)">
+    <line x1="0" y1="0" x2="0" y2="3" stroke="#4a3626" stroke-width=".45" opacity=".45"/>
+  </pattern>
+  <clipPath id="oval"><ellipse cx="120" cy="136" rx="86" ry="110"/></clipPath>
+  <clipPath id="bust">
+    <path d="M118 40 C98 40 85 51 81 66 C78 76 79 86 80 92 C77 98 76 102 75 106 C70 112 60 119 59 124 C58 127 62 129 67 130 C65 132 64 134 65 136 C62 138 62 141 65 143 C63 146 64 150 67 153 C69 159 71 164 76 169 C82 174 89 177 97 178 C103 180 107 185 107 191 C102 201 88 211 76 221 C62 233 57 250 56 280 L192 280 C192 250 187 233 174 221 C162 211 149 202 147 196 C145 190 144 182 142 172 C152 160 161 148 165 130 C169 112 168 92 163 76 C156 55 139 40 118 40 Z"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#oval)">
+  <rect x="20" y="18" width="200" height="242" fill="#f6efdf"/>
+  <rect x="130" y="18" width="92" height="245" fill="url(#hz)"/>
+  <rect x="20" y="18" width="118" height="245" fill="url(#hz2)" opacity=".65"/>
+  <rect x="20" y="212" width="200" height="52" fill="url(#hz2)" opacity=".5"/>
+
+  <g transform="translate(120 128) scale(0.8) translate(-120 -136)">
+  <!-- 半身剪影：头、颈、肩一体 -->
+  <path d="M118 40 C98 40 85 51 81 66 C78 76 79 86 80 92 C77 98 76 102 75 106 C70 112 60 119 59 124 C58 127 62 129 67 130 C65 132 64 134 65 136 C62 138 62 141 65 143 C63 146 64 150 67 153 C69 159 71 164 76 169 C82 174 89 177 97 178 C103 180 107 185 107 191 C102 201 88 211 76 221 C62 233 57 250 56 280 L192 280 C192 250 187 233 174 221 C162 211 149 202 147 196 C145 190 144 182 142 172 C152 160 161 148 165 130 C169 112 168 92 163 76 C156 55 139 40 118 40 Z" fill="#241a14"/>
+
+  <g clip-path="url(#bust)">
+    <!-- 发丝高光（纸色细线，模拟铜版留白） -->
+    <g stroke="#f6efdf" stroke-linecap="round" fill="none">
+      <path d="M104 46 C95 56 90 68 89 80" stroke-width="1.1" opacity=".45"/>
+      <path d="M116 44 C104 54 97 68 96 82" stroke-width=".9" opacity=".38"/>
+      <path d="M128 44 C116 55 108 68 106 84" stroke-width="1.2" opacity=".46"/>
+      <path d="M140 47 C130 58 122 72 119 88" stroke-width="1" opacity=".4"/>
+      <path d="M150 53 C143 65 136 80 133 94" stroke-width="1.1" opacity=".42"/>
+      <path d="M159 63 C153 76 148 90 146 104" stroke-width=".9" opacity=".32"/>
+      <path d="M163 77 C159 90 156 104 155 118" stroke-width=".8" opacity=".26"/>
+    </g>
+    <!-- 面颊极淡的一道受光边 -->
+    <path d="M80 91 C77 96 75 101 73 106" fill="none" stroke="#f6efdf" stroke-width=".45" opacity=".14"/>
+    <path d="M67 154 C70 160 73 165 78 169" fill="none" stroke="#f6efdf" stroke-width=".45" opacity=".12"/>
+  </g>
+
+  <!-- 白领巾 -->
+  <path d="M100 202 L120 222 L140 202 L147 209 L126 233 L120 252 L114 233 L93 209 Z" fill="#f3ecd9"/>
+  <path d="M104 206 L120 222 L136 206" fill="none" stroke="#c2b191" stroke-width=".5" opacity=".8"/>
+  <path d="M120 226 L120 250" fill="none" stroke="#c2b191" stroke-width=".5" opacity=".7"/>
+
+  <!-- 领结（暗红） -->
+  <path d="M114 224 L120 234 L126 224 L124 246 L116 246 Z" fill="#7c2b21" opacity=".92"/>
+  </g>
+</g>
+
+<!-- 椭圆双线与铜色外框 -->
+<ellipse cx="120" cy="136" rx="86" ry="110" fill="none" stroke="#241a14" stroke-width="1.3"/>
+<ellipse cx="120" cy="136" rx="91" ry="115" fill="none" stroke="#9a7a3f" stroke-width=".5" opacity=".8"/>
+<ellipse cx="120" cy="136" rx="95" ry="119" fill="none" stroke="#9a7a3f" stroke-width=".9"/>
+</svg>
+
+        <div class="plate-years">MDCCLXX — MDCCCXXXI</div>
+        <div class="plate-cap">格奥尔格·威廉·弗里德里希·黑格尔<br>1770 年斯图加特 — 1831 年柏林<br><span style="font-size:.62rem;color:var(--ink-4)">侧面剪影示意，非写实肖像</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="editorial reveal">
+    <div class="note-col">编者按<br><span style="letter-spacing:.06em;color:var(--ink-4);font-family:var(--serif);font-size:.76rem">EDITOR'S NOTE</span></div>
+    <div>
+      <p>《小逻辑》是《哲学全书纲要》的第一部分，一部用来配合讲课的纲要：正文常常只有两三句话，真正的论证在「说明」与「附释」里。它的难，不在于术语生僻，而在于每一个规定都从上一个规定的失败中长出来。读懂它的标志，是能够自己说出「为什么不能再停在这里」。</p>
+      <p>因此本站不按「概念词典」的方式编写。每一讲都先还原问题，再逐句拆开原文的推演，然后指出这个范畴的限度，以及限度如何逼出下一个范畴。存在论、本质论、概念论在这里是一条路的三段，并非三个并列的知识板块。</p>
+      <div class="note" style="margin-top:1.2rem"><div class="note-h">阅读提醒</div>
+      <p>《小逻辑》（1817/1827/1830，244 节）与《大逻辑》（1812–1816，两卷）不是同一部书。前者是纲要，后者是展开的论证。本站以《小逻辑》为骨架，必要时注明引用《大逻辑》之处，绝不混用。</p></div>
+      
+<dl class="facts">
+  <div><dt>原 名</dt><dd>Enzyklopädie der philosophischen Wissenschaften im Grundrisse. Erster Teil: Die Wissenschaft der Logik</dd></div>
+  <div><dt>体 例</dt><dd>纲要式正文 244 节，附「说明」与编者整理的学生笔记「附释」</dd></div>
+  <div><dt>初 版</dt><dd>1817 年（海德堡）；1827 年第二版；1830 年第三版</dd></div>
+  <div><dt>中 译</dt><dd>贺麟译，商务印书馆；全书分三篇：存在论、本质论、概念论</dd></div>
+  <div><dt>别 名</dt><dd>《小逻辑》为后人为区别于两卷本《大逻辑》而用的称法，非黑格尔原书名</dd></div>
+</dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><h2><span class="no">I · STRUCTURE</span>全书结构总览</h2><a href="course.html">全部 112 讲 →</a></div>
+  <div class="tree"><div class="tree-part">
+  <div class="pno">I</div>
+  <div>
+    <h3>进入黑格尔哲学<em>Einleitung</em></h3>
+    <p>先弄清黑格尔在回答什么问题：哲学凭什么以概念把握真理？康德留下的裂缝在哪里？《小逻辑》为何以逻辑学为全书开端？这一部分处理背景、对象与方法，是全书的地基。</p>
+    <div class="tree-chapters"><a href="ch01.html"><span>01</span>黑格尔及其哲学体系</a><a href="ch02.html"><span>02</span>什么是黑格尔的逻辑学</a><a href="ch03.html"><span>03</span>黑格尔的辩证法</a></div>
+  </div>
+</div><div class="tree-part">
+  <div class="pno">II</div>
+  <div>
+    <h3>存在论<em>Die Lehre vom Sein</em></h3>
+    <p>从最贫乏的规定「纯存在」开始，让范畴自身运动：存在即无，无即存在，二者不安息地过渡为生成；生成沉淀为定在，定在通过有限与无限的纠缠达到自为存在；质让位于量，量在尺度中重新遭遇质。</p>
+    <div class="tree-chapters"><a href="ch04.html"><span>04</span>存在论概述</a><a href="ch05.html"><span>05</span>定在</a><a href="ch06.html"><span>06</span>量</a></div>
+  </div>
+</div><div class="tree-part">
+  <div class="pno">III</div>
+  <div>
+    <h3>本质论<em>Die Lehre vom Wesen</em></h3>
+    <p>存在论范畴直接过渡，本质论范畴则相互映现。本质先设定自身为同一，又必然分裂为差别与对立，在矛盾中取得根据；根据展开为实存与现象，现象回到内与外的同一，即现实；现实在实体、因果与相互作用中显露为自由。</p>
+    <div class="tree-chapters"><a href="ch07.html"><span>07</span>本质论概述</a><a href="ch08.html"><span>08</span>现象与现实</a></div>
+  </div>
+</div><div class="tree-part">
+  <div class="pno">IV</div>
+  <div>
+    <h3>概念论<em>Die Lehre vom Begriff</em></h3>
+    <p>概念是存在与本质的真理：它把过渡与映现收回到自身，成为自由的、自我规定的东西。概念在判断中把自己拆开，在推论中重新接合，在客观性中取得外在形态，最终在理念中证明自己即实在。</p>
+    <div class="tree-chapters"><a href="ch09.html"><span>09</span>概念论概述</a><a href="ch10.html"><span>10</span>主观概念</a><a href="ch11.html"><span>11</span>客观性</a><a href="ch12.html"><span>12</span>理念</a></div>
+  </div>
+</div><div class="tree-part">
+  <div class="pno">V</div>
+  <div>
+    <h3>全书综合理解<em>Rückblick</em></h3>
+    <p>回到整体：三个部分不是三个并列的部门，而是同一件事的三种自我关系方式——直接性、中介性、自返的自由。再看这部书如何进入马克思、存在主义与当代哲学的争论。</p>
+    <div class="tree-chapters"><a href="ch13.html"><span>13</span>黑格尔逻辑学的整体结构</a><a href="ch14.html"><span>14</span>黑格尔哲学的影响与争论</a></div>
+  </div>
+</div></div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><h2><span class="no">II · THREE PORTALS</span>三个主要入口</h2><a href="atlas.html">全景图 →</a></div>
+  <div class="doors"><a class="door" href="part2.html">
+  <div class="door-no">§84–§111 · 课程 24–47</div>
+  <h3>存在论</h3>
+  <div class="de">Die Lehre vom Sein</div>
+  <p>从无规定性的直接性出发，让范畴在自身矛盾中过渡。</p>
+  <ul><li>纯存在 → 纯无 → 生成</li><li>定在、有限与真无限</li><li>量、尺度与量变到质变</li></ul>
+  <span class="go">进入 · ENTER →</span>
+</a><a class="door" href="part3.html">
+  <div class="door-no">§112–§159 · 课程 48–63</div>
+  <h3>本质论</h3>
+  <div class="de">Die Lehre vom Wesen</div>
+  <p>范畴不再直接过渡，而在对方中映现自身：反思、矛盾、根据、现象、现实。</p>
+  <ul><li>同一、差异、对立、矛盾</li><li>根据与实存</li><li>实体、因果、相互作用</li></ul>
+  <span class="go">进入 · ENTER →</span>
+</a><a class="door" href="part4.html">
+  <div class="door-no">§160–§244 · 课程 64–99</div>
+  <h3>概念论</h3>
+  <div class="de">Die Lehre vom Begriff</div>
+  <p>概念是自由的原则：它在判断中分开自己，在推论中接合，在理念中证明自己即实在。</p>
+  <ul><li>普遍、特殊、个别</li><li>判断与推论的必然序列</li><li>生命、认识、绝对理念</li></ul>
+  <span class="go">进入 · ENTER →</span>
+</a></div>
+</section>
+
+<section class="band">
+  <div class="band-in">
+    <h2>第一步为什么是「纯存在」</h2>
+    <p class="sub">全书最著名、也最容易被当成文字游戏的一次推演</p>
+    <div class="chain">
+      <span class="node">纯存在<em>das reine Sein</em></span>
+      <span class="arrow">→</span>
+      <span class="node">纯无<em>das Nichts</em></span>
+      <span class="arrow">→</span>
+      <span class="node">生成<em>das Werden</em></span>
+      <span class="arrow">→</span>
+      <span class="node">定在<em>das Dasein</em></span>
+    </div>
+    <p class="why">纯存在是抽掉一切规定之后剩下的纯思。它除「是」之外说不出任何内容；而「说不出任何内容」正是无。二者的区别只剩指谓上的区别，于是思想被迫进入第三个东西：一个从有到无、从无到有的运动。这就是生成。</p>
+    <p style="margin-top:1rem"><a class="btn" href="being-nothing-becoming.html">读完整精读（六步推演 + 五种反驳）</a></p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><h2><span class="no">III · CONCEPTS</span>核心概念</h2><a href="network.html">概念网络 →</a></div>
+  <div class="idx"><a href="concept-pure-being.html">纯存在<span class="lead"></span><span class="ref">§86</span></a><a href="concept-pure-nothing.html">纯无<span class="lead"></span><span class="ref">§87</span></a><a href="concept-becoming.html">生成<span class="lead"></span><span class="ref">§88</span></a><a href="concept-determinate-being.html">定在<span class="lead"></span><span class="ref">§89–90</span></a><a href="concept-quality-and-quantity.html">质与量<span class="lead"></span><span class="ref">§90、99</span></a><a href="concept-finite-and-infinite.html">有限与无限<span class="lead"></span><span class="ref">§92–95</span></a><a href="concept-true-infinity.html">真无限<span class="lead"></span><span class="ref">§94–95</span></a><a href="concept-measure.html">量变与质变<span class="lead"></span><span class="ref">§107–111</span></a><a href="concept-essence-and-appearance.html">本质与现象<span class="lead"></span><span class="ref">§112、131</span></a><a href="concept-identity-and-difference.html">同一与差异<span class="lead"></span><span class="ref">§115–118</span></a><a href="concept-opposition-and-contradiction.html">对立与矛盾<span class="lead"></span><span class="ref">§119–120</span></a><a href="concept-ground.html">根据<span class="lead"></span><span class="ref">§121</span></a><a href="concept-actuality.html">现实性<span class="lead"></span><span class="ref">§142–143</span></a><a href="concept-possibility-and-necessity.html">可能性与必然性<span class="lead"></span><span class="ref">§143–149</span></a><a href="concept-substance-and-causality.html">实体与因果关系<span class="lead"></span><span class="ref">§150–155</span></a><a href="concept-concept.html">概念<span class="lead"></span><span class="ref">§160–163</span></a><a href="concept-universal-particular-singular.html">普遍性、特殊性与个别性<span class="lead"></span><span class="ref">§163–165</span></a><a href="concept-judgment-and-syllogism.html">判断与推论<span class="lead"></span><span class="ref">§166–193</span></a><a href="concept-mechanism-and-chemistry.html">机械性与化学性<span class="lead"></span><span class="ref">§195–203</span></a><a href="concept-teleology.html">目的论<span class="lead"></span><span class="ref">§204–212</span></a><a href="concept-idea.html">理念<span class="lead"></span><span class="ref">§213–215</span></a><a href="concept-absolute-idea.html">绝对理念<span class="lead"></span><span class="ref">§236–244</span></a><a href="concept-negativity.html">否定性<span class="lead"></span><span class="ref">§79–82、91</span></a><a href="concept-sublation.html">扬弃<span class="lead"></span><span class="ref">§81、89、96</span></a><a href="concept-abstract-and-concrete.html">抽象与具体<span class="lead"></span><span class="ref">§84、86</span></a></div>
+</section>
+
+<section class="sec" style="padding-bottom:3rem">
+  <div class="sec-head"><h2><span class="no">IV · HOW TO READ</span>如何使用这座研究室</h2></div>
+  <div class="editorial">
+    <div class="note-col">四种读法<br><span style="letter-spacing:.06em;color:var(--ink-4);font-family:var(--serif);font-size:.76rem">WAYS IN</span></div>
+    <div class="two">
+      <p><strong>一、顺序读。</strong>从第一章到第十四章，按课程编号推进。每章先读「本章导读」，再逐节读原文与推演，最后看「学术争议」。</p>
+      <p><strong>二、按图读。</strong>先看<a href="atlas.html">全景图</a>建立骨架，再用<a href="derivation.html">范畴推演图</a>沿着箭头读每一步的「为什么」。</p>
+      <p><strong>三、按概念读。</strong>从<a href="network.html">概念网络</a>或<a href="glossary.html">术语词典</a>进入，遇到不懂的术语就查德文原词与节号。</p>
+      <p><strong>四、对照读。</strong>用<a href="compare.html">概念对照表</a>看黑格尔与康德、亚里士多德、马克思的分歧究竟落在哪个命题上。</p>
+    </div>
+  </div>
+</section>
+</div>
+</main>
+<footer class="footer">
+  <div class="footer-in">
+    <div>
+      <h4>关于本站</h4>
+      <p>以《小逻辑》（贺麟译，商务印书馆）为底本的系统课程，按原著三部分逐范畴讲解。全站 14 章、112 讲、25 个概念专题。</p>
+      <p><a href="about.html">编纂说明与参考文献 →</a></p>
+    </div>
+    <div>
+      <h4>课程</h4>
+      <ul>
+        <li><a href="course.html">全部章节</a></li>
+        <li><a href="atlas.html">逻辑学全景图</a></li>
+        <li><a href="derivation.html">范畴推演图</a></li>
+        <li><a href="glossary.html">哲学术语词典</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>阅读</h4>
+      <ul>
+        <li><a href="ch01.html">从第一章开始</a></li>
+        <li><a href="concept-pure-being.html">纯存在</a></li>
+        <li><a href="being-nothing-becoming.html">精读：有—无—生成</a></li>
+        <li><a href="compare.html">黑格尔与康德、马克思</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-in" style="padding-top:0">
+    <div class="colophon">
+      <span>黑格尔逻辑学研究室 · 二〇二六年</span>
+      <span>底本：G. W. F. Hegel, <i>Enzyklopädie der philosophischen Wissenschaften im Grundrisse</i>, Erster Teil</span>
+      <span>中译参照：贺麟译本（§1–§244）</span>
+    </div>
+  </div>
+</footer>
+<button class="to-top" id="toTop" aria-label="返回顶部">↑</button>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="站点目录">
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <span class="drawer-title">目录</span>
+      <button class="drawer-close" id="drawerClose" aria-label="关闭">×</button>
+    </div>
+    <a href="course.html">课程总览<small>COURSE</small></a><a href="atlas.html">全景图<small>ATLAS</small></a><a href="derivation.html">范畴推演<small>DERIVATION</small></a><a href="network.html">概念网络<small>NETWORK</small></a><a href="compare.html">概念对照<small>COMPARE</small></a><a href="glossary.html">术语词典<small>GLOSSARY</small></a><a href="about.html">关于本站<small>ABOUT</small></a>
+  </div>
+</div>
+<script src="assets/js/site.js"></script>
+
+</body>
+</html>
